@@ -1,0 +1,101 @@
+@import url("base.css");
+
+header{
+    height: 0.88rem;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+}
+
+
+.search{
+    height: 0.6rem;
+    padding: 0.17rem 0.22rem;
+    line-height: 0.6rem;
+}
+.search > span>a{
+    float: left;
+
+    font-size: 0.28rem;
+    color: #4ebbfe;
+}
+.search > span>i{
+    display: inline-block;
+    margin-left: 0.1rem;
+}
+.search > a{
+    float: right;
+    width: 5.93rem;
+    height: 0.6rem;
+}
+.banner{
+    width: 100%;
+    height: 3rem;
+}
+
+.category{
+    padding: 0.22rem;
+    height: 6.9rem;
+    display: flex;
+    /*background: dodgerblue;*/
+    justify-content: space-between;
+    flex-wrap:wrap;
+    align-content: space-between;
+}
+.category li {
+    width: 2.35rem;
+    height: 1.94rem;
+
+}
+.category>li>a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #333333;
+    font-size: 13px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.category>li>a>div {
+    width: 1.13rem;
+    height: 1.13rem;
+}
+
+.icon-xiangxia{
+    color:#4ebbfe;
+    font-size: 15px;
+}
+footer {
+    height: 0.98rem;
+    padding: 0 0.22rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    background:  #f1f9ff;
+}
+footer > a{
+    align-items: flex-end;
+    width: 0.7rem;
+    height: 100rem;
+    font-size: 0.24rem;
+    color: #4ebbfe;
+    text-align: center;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+footer > a.hot{
+    opacity: 1;
+}
+footer > a > img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+}
+
+

@@ -1,0 +1,104 @@
+@import "base.css";
+@import "details.css";
+
+article{
+    width:100%;
+    position: relative;
+    top: 2.5rem;
+}
+.box{
+    width: 5.2rem;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-size: 0.32rem;
+    font-weight: bold;
+    margin: 0.6rem 0;
+    width: 5.19rem;
+}
+.head1{
+    margin:0 auto;
+    padding-bottom: 0.3rem;
+    opacity: 0.6;
+}
+
+form{
+    font-size: 0.22rem;
+}
+input{
+    border: 0;
+    outline:0;
+}
+.input1,.input2{
+    width: 5.2rem;
+    margin: 0.27rem 0;
+    height: 0.5rem;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.3);
+    /*opacity: 0.3;*/
+}
+.input1 input,.input2 input{
+    opacity: 0.3;
+}
+.input1 i,.input2 i{
+    margin-right:0.1rem ;
+}
+.submit{
+    width: 5.2rem;
+    margin: 0.4rem 0;
+    height: 0.52rem;
+}
+.submit input{
+    width: 3.86rem;
+    height: 0.52rem;
+    margin: 0.05rem 0.67rem;
+    background-color: #41b2fc;
+    box-shadow: 0 5px 15px 0 rgba(59, 172, 254, 0.43);
+    border-radius: 0.26rem;
+    color: #FFFFFF;
+    font-size: 0.2rem;
+    line-height: 0.52rem;
+}
+
+.post{
+    margin: 0.1rem 0;
+}
+.postSpan1{
+    float: left;
+}
+.postSpan2{
+    float: right;
+}
+.post a{
+    color: #000000;
+    opacity: 0.3;
+}
+.bottom{
+    font-size: 0.22rem;
+    /*opacity: 0.3;*/
+    margin: 1rem 0;
+    text-align: center;
+    overflow: hidden;
+}
+.input1 i,.input2 i{
+    font-size:0.4rem;
+    color:#4ebbfe;
+}
+.post i{
+    font-size:0.3rem;
+    color:#000000;
+    opacity: 0.3;
+}
+.bottom span{
+    opacity: 0.3;
+}
+
+.bottom i{
+    font-size:0.25rem;
+    color:#4ebbfe;
+    opacity: 1;
+    margin-right: 0.1rem;
+
+}
