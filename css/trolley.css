@@ -1,0 +1,290 @@
+@import "base.css";
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; }
+}
+
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    background-color: #fbfeff;
+
+}
+header > a{
+    color: #4ebbfe;
+}
+
+/********************************************/
+.content{
+    width: 100%;
+    height: 12rem;
+    background-color: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0
+    rgba(41, 167, 255, 0.13);
+    position: relative;
+}
+.content > h1 >img{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2.5rem;
+    position: absolute;
+    top: 3rem;
+}
+.content > h2{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height:0.35rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.4;
+    position: absolute;
+    top: 6rem;
+    left: 2.9rem;
+}
+.content > h3 > a > img{
+    width: 2.5rem;
+    height: 1rem;
+    position: absolute;
+    left: 2.7rem;
+    top: 7rem;
+
+}
+/*************************************/
+section{
+    background: #fbfeff;
+}
+
+section .matter{
+    width: 7.02rem;
+    height: 3.5rem;
+    padding: 0.65rem 0.24rem 0.2rem 0.24rem;
+    border-bottom: 1px solid #e4e3e3;
+    background: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0
+    rgba(41, 167, 255, 0.13);
+}
+
+.matter .first{
+}
+.matter .first .iconfont{
+    color: #3bacfe;
+    float: right;
+    position: absolute;
+    top: 1.6rem;
+    left: 6.8rem;
+
+}
+.matter .first > h1{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    margin-bottom: 0.14rem;
+    margin-left: 0.2rem;
+}
+.matter .first > h1 >img{
+    width: 0.3rem;
+    height: 0.3rem;
+    background-blend-mode: normal, normal;
+    display: inline-block;
+    margin-right: 0.2rem;
+}
+
+.matter .second{
+    position: relative;
+    margin-left: 0.2rem;
+}
+
+.second  > img{
+    width: 1.74rem;
+    height: 1.74rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.21rem 0
+    rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    display: inline-block;
+}
+.second > h1{
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+    position: absolute;
+    top: 0.1rem;
+    left: 2rem;
+}
+.second > h2{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    display: inline-block;
+    float: right;
+    margin-top: 0.2rem;
+}
+.second > h2> img{
+    width:0.34rem;
+    height: 0.34rem;
+    display: inline-block;
+
+}
+.second > h3{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #8e9397;
+    opacity: 0.8;
+    display: inline-block;
+    position: absolute;
+    top: 0.5rem;
+    left: 1.95rem;
+}
+.matter .third{
+
+}
+.matter .third > h1{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.13rem;
+    color: #3bacfe;
+    opacity: 0.8;
+    margin-left: 0.3rem;
+}
+.matter .third > h1 >span{
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+}
+.matter .third >h2{
+    width: 1.44rem;
+    height: 0.55rem;
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    border-radius: 0.22rem;
+    float: right;
+}
+.matter .third > h2 > a > img{
+    width: 1.44rem;
+    height: 0.55rem;
+}
+
+.quanxuan {
+    background: #fbfeff;
+    width: auto;
+    height: 2.6rem;
+    position: relative;
+}
+.quanxuan .iconfont{
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    position: absolute;
+    left: 0.15rem;
+    top: 1.9rem;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.1rem;
+    background-color: #f1f9ff;
+    padding: 0 0.32rem;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .bottom{
+    position: relative;
+    padding: 0.2rem;
+}
+
+.bottom > h1{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.13rem;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+.bottom > h1 >span{
+    font-size: 0.36rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+}
+.bottom > h2{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+.bottom > h3 > a >img{
+    width: 3.8rem;
+    height: 1rem;
+    position: absolute;
+    left: 3rem;
+    bottom: 0.02rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
