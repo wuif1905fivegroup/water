@@ -1,13 +1,13 @@
 html {
-    font-size: 100px;}
+    font-size: 100px; }
 
 body {
-    font-size: 16px;
-}
+    font-size: 16px; }
 
 @media screen and (min-width: 320px) {
     html {
-        font-size: 42.66667px; } }
+        font-size: 42.66667px; }
+}
 
 @media screen and (min-width: 360px) {
     html {
@@ -26,7 +26,8 @@ body {
         font-size: 55.2px; } }
 
 
-body ,ul,li,p,div,a ,h1{
+
+body ,ul,li,p,div,a , h1,img{
     margin: 0;
     padding: 0;
     list-style: none;

@@ -1,0 +1,253 @@
+@import "base.css";
+header{
+    height: 0.88rem;
+    width: 100%;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+}
+header a{
+    color: #4ebbfe;
+}
+.iconfont{
+    float: left;
+    width: 0.25rem;
+    height: 0.42rem;
+    margin-left: 0.24rem;
+}
+article{
+    width:100%;
+    height: 100%;
+}
+ul{
+    width: 6.41rem;
+    height: 1.85rem;
+    background-color: #ffffff;
+    margin: 0.32rem 0.53rem;
+    display: flex;
+    flex-direction:row;
+    position: relative;
+}
+article > ul >  .qm >  .tx{
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+article > ul > a >  p{
+    width: 1.6rem;
+    height: 0.29rem;
+    font-size: 0.3rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 0.4rem;
+}
+
+article  > ul .hg img{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    left: 1.6rem;
+    top: 0.9rem;
+}
+article > ul > span{
+    width: 0.89rem;
+    height: 0.22rem;
+    font-size: 0.22px;
+    color: #000000;
+    opacity: 0.4;
+    position: absolute;
+    top: 0.96rem;
+    left: 2.2rem;
+
+}
+article  > ul .sj img{
+    width: 1rem;
+    height: 0.2rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+}
+article >  .zj {
+    display: flex;
+    flex-direction:row;
+}
+article >  .zj > span{
+    margin-left: 1.3rem;
+}
+article > .zj > .zj1 >  p{
+    width: 0.5rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    margin-left: 0.12rem;
+    line-height: 0.40rem;
+    letter-spacing: 0.01rem;
+    color: #8e9397;
+}
+article > .zj > .zj2 >  p{
+    width: 1rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    margin-left: -0.1rem;
+    line-height: 0.40rem;
+    letter-spacing: 0.01rem;
+    color: #8e9397;
+}
+article > .zj > .zj3 >  p{
+    width: 0.5rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    margin-left: 0.12rem;
+    line-height: 0.40rem;
+    letter-spacing: 0.01rem;
+    color: #8e9397;
+}
+
+article > .zj .zj1{
+    width: 0.82rem;
+    height: 0.33rem;
+    font-size: 0.46rem;
+    color: #4ebbfe;
+}
+article > .zj .zj2{
+    width: 0.82rem;
+    height: 0.33rem;
+    font-size: 0.46rem;
+    color: #4ebbfe;
+}
+article > .zj .zj3{
+    width: 0.82rem;
+    height: 0.33rem;
+    font-size: 0.46rem;
+    color: #4ebbfe;
+}
+article > .footer {
+    position: relative;
+    margin-top: 1.3rem;
+}
+article  > .footer > a{
+    display: flex;
+    flex-direction:  column;
+   justify-content: space-between;
+    margin-top: 0.66rem;
+    margin-left: 0.78rem;
+}
+article > .footer > a > span{
+    font-size: 0.28rem;
+    line-height: 0.40rem;
+    letter-spacing: 0.02rem;
+    color: #000000;
+    opacity: 0.7;
+    font-stretch: normal;
+    font-weight: normal;
+}
+article > .footer > a > p{
+        position: absolute;
+       right: 10px;
+}
+.yuan::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.5rem;
+}
+.yuan1::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    top: 1.2rem;
+    left: 0.5rem;
+}
+.yuan2::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    top: 2.3rem;
+    left: 0.5rem;
+}
+.yuan3::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    top: 3.4rem;
+    left: 0.5rem;
+}
+.yuan4::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    top: 4.4rem;
+    left: 0.5rem;
+}
+.yuan5::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    top: 5.5rem;
+    left: 0.5rem;
+}
+.yuan6::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    top: 6.6rem;
+    left: 0.5rem;
+}
+foot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 0.98rem;
+    width: 100%;
+    background: #f1f9ff;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+foot a{
+    width: 0.7rem;
+    height: 100%;
+    color: #4ebbfe;
+    text-align: center;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+    opacity: 0.5;
+    font-size: 0.12rem;
+}
+foot > a.hot{
+    opacity: 1;
+}
+foot >a > img{
+    width: 0.5rem;
+    height: 0.5rem;
+    font-size: 0.24rem;
+    display: inline-block;
+}

@@ -1,0 +1,96 @@
+@import "base.css";
+header{
+    height: 0.88rem;
+    width: 100%;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+}
+header a{
+    color: #4ebbfe;
+}
+.iconfont{
+    float: left;
+    width: 0.25rem;
+    height: 0.42rem;
+    margin-left: 0.24rem;
+}
+div{
+    width: 1.74rem;
+    height: 0.26rem;
+    /*font-size: 0.26rem;*/
+    line-height: 0.40rem;
+    letter-spacing: 0.02rem;
+    color: #32d796;
+    margin: 1.3rem 3.2rem;
+    position: relative;
+}
+.font::before{
+    content: '';
+    width: 0.10rem;
+    height: 0.06rem;
+    border-radius: 0.03rem;
+    background-color: #34da87;
+    position: absolute;
+    top: 0.2rem;
+    left: -0.2rem;
+}
+.font::after{
+    content: '';
+    width: 0.10rem;
+    height: 0.06rem;
+    border-radius: 0.03rem;
+    background-color: #34da87;
+    position: absolute;
+    top: 0.2rem;
+    left: 1.5rem;
+}
+div::after{
+    content: '';
+    width: 702px;
+    height: 2px;
+    background-color: #000000;
+    opacity: 0.04;
+    position: absolute;
+    top: 1.2rem;
+    left: -9rem;
+}
+.picture1 > img {
+    width: 1.06rem;
+    height: 1.06rem;
+    position: absolute;
+    left: 0.6rem;
+    top: 4rem;
+}
+.picture2 > img {
+    width: 0.25rem;
+    height: 0.25rem;
+    background-color: #36a8fe;
+    float: right;
+    border-radius: 50%;
+    position: absolute;
+    right: 0.6rem;
+    top: 4.3rem;
+}
+.picture3 > a > img{
+    width: 4.54rem;
+    height: 1rem;
+    position: absolute;
+    left: 1.6rem;
+    top: 7.6rem;
+}
+p{
+    width: 2.12rem;
+    height: 0.27rem;
+    line-height: 0.54rem;
+    letter-spacing: 0.01rem;
+    color: #47505f;
+    font-size: 0.28rem;
+    position: absolute;
+    left: 1.6rem;
+    top: 4.2rem;
+}
