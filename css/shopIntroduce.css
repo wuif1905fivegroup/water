@@ -1,6 +1,4 @@
-body{
-    padding: 0 0.22rem;
-}
+
 .header{
     padding-bottom: 0.27rem;
     display: flex;
@@ -14,7 +12,9 @@ body{
 .shadow{
     box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
 }
-
+.main{
+padding: 0 0.22rem;
+}
 .introduce{
     margin-top: 0.37rem;
     padding-bottom: 0.41rem;
