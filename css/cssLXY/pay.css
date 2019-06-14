@@ -1,0 +1,137 @@
+header{
+    width: 100%;
+    height: 1rem;
+    padding: 0.1rem 0.15rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    background: #fbfeff;
+}
+header > a{
+    color: #4ebbfe;
+}
+/*                    section                         */
+
+
+.first{
+    width: 100%;
+    height: 4.4rem;
+    background: #fbfeff;
+    box-sizing: border-box;
+    box-shadow: 0 0.03rem 0.43rem 0
+    rgba(41, 167, 255, 0.13);
+    position: relative;
+}
+.first > p > img{
+    width: 1.58rem;
+    height: 1.11rem;
+    margin-left: 3rem;
+    padding-top: 0.5rem;
+}
+.first > h1 {
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #4f5b64;
+    margin-left:2.4rem ;
+    margin-bottom: 0.1rem;
+}
+.first > h1 > span{
+    font-size: 0.4rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #32d796;
+}
+.first > h2 {
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #4f5b64;
+    margin-left: 3rem;
+}
+.first > h2 > span{
+    font-size: 0.34rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #ffd541;
+}
+.first > h3 {
+    display: inline-block;
+    margin-top: 0.52rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 1.6rem;
+}
+.first > h4 {
+    display: inline-block;
+    margin-top: 0.5rem;
+    position: absolute;
+    top: 2.6rem;
+    left: 3.8rem;
+
+}
+.first > h3 > a >img{
+    width: 1.96rem;
+    height: 0.8rem;
+}
+.first > h4 > a > img{
+    width: 1.96rem;
+    height: 0.7rem;
+}
+
+.second{
+    width: 100%;
+    height: 7.8rem;
+    background-color: #fbfeff;
+    box-sizing: border-box;
+}
+
+.second > h1 > a > img{
+    width: 7.4rem;
+    height: 5rem;
+    padding-left: 0.05rem;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.1rem;
+    background-color: #f1f9ff;
+    padding: 0 0.32rem;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: space-between;
+}
+footer >a{
+    width: 0.7rem;
+    height: 100%;
+    font-size: 0.24rem;
+    text-align: center;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+    color: #4ebbfe;
+    opacity: 0.5;
+}
+footer >a.hot{
+    opacity: 1;
+}
+footer >a>img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+
+}
